@@ -1,0 +1,32 @@
+Przy pierwszym uruchomieniu musisz zainstalować potrzebne pakiety
+do tego użyj komendy: pip install -r requirements.txt
+!!! ważne musisz być w tym folderze gdzie znajduje się plik !!!
+
+
+Wytłumaczenie folderów:
+
+drivers - folder w którym znajdują się drivery w nim jest pobrany driver dla ciebie musisz
+tylko zmienić ustawienia w pliku selenium_crawler.ini
+
+files - folder w którym znajdują się potrzebne pliki: links.txt oraz selenium_crawler.ini (plik z ustawieniami)
+
+html_files - folder który trzyma pliki html z crawlera
+
+html_output - folder który trzyma wyniki csv
+
+shelve - folder który trzyma nasze bazy danych
+
+
+Proces działania aplikacji:
+
+1. Uruchamiamy selenium_crawler.py [python selenium_crawler.py]
+2. Po zakończonej pracy crawlera uruchomiamy html_to_csv.py
+3. Po zakończonej pracy html_to_csv.py plik data.csv powinien być uzupełniony o dane
+
+
+Jeśli chcemy ponownie uruchomić aplikacjię trzeba wykonać następujące kroki.
+
+1. Usunąć pliki z folderu shelve/
+2. Przenieść plik data.csv do innego miejsca na komputerze
+3. Skopiować layout.csv
+4. Zmienić nazwe layout.csv na data.csv

@@ -1,0 +1,14 @@
+appdirs==1.4.3
+beautifulsoup4==4.8.1
+certifi==2019.11.28
+chardet==3.0.4
+chromedriver-py==80.0.3987.16
+idna==2.8
+pyderman==2.0.0
+requests==2.22.0
+selenium==3.141.0
+selenium-wire==1.0.10
+soupsieve==1.9.4
+tqdm==4.41.1
+urllib3==1.25.6
+webdrivermanager==0.7.4
